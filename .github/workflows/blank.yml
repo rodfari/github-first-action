@@ -1,0 +1,11 @@
+name: Firs workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello Word!"
+      - name: Print Goodbye
+        run: echo "Goodbye"
+
